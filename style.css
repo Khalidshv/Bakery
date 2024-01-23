@@ -172,7 +172,7 @@
     color: var(--first-color);
 }
 
-.nav__close, .nav__img1 .nav__img2{
+.nav__close, .nav__img-1 .nav__img-2{
     position: absolute;
 }
 
@@ -181,14 +181,14 @@
     right: 1.5rem;
 }
 
-.nav__img1{
-    width: 80px;
+.nav__img-1{
+    width: 110px;
     top: 11rem;
     right: 75rem;
 }
 
-.nav__img2{
-    width: 60px;
+.nav__img-2{
+    width: 80px;
     top: 28rem;
     left: 6rem;
 }
@@ -289,4 +289,18 @@
 
 .home__social a:hover{
     color: var(--first-color);
+}
+
+.button{
+    display: inline-flex;
+    background-color: var(--first-color);
+    color: var(--black-color);
+    font-weight: var(--font-semi-bold);
+    padding: 1.125rem 2rem;
+    transition: background-color .4s;
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+    
 }
